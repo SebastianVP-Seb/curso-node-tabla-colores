@@ -44,6 +44,23 @@
         git init 
     2) Preparando el 1er Commit. Esto tomará los últimos cambios desde el último commit
         git add .
+        git commit -m "Primer Commit"
+    3) Si se llega a borrar un archivo, al teclear lo sig, éstos se regenerarán
+        git checkout -- .
+       Incluso si se llega a modificar por error un archivo. Guarda la última copia
+       y lo regresa a como estaba
+
+    4) Abrir GitHub y crear un nuevo repositorio, luego abajo copiar los comandos
+        que se usan cuando ya se tiene un repositorio inicializado
+        Pegar esos comandos en la terminal integrada, recargar la pág del repositorio y
+        aparecerán los archivos
+
+    5) Crear archivo README.md en la raíz del proyecto
+
+    6) Agregar el archivo README a Git
+        git add .
+        git commit -m "README agregado"
+
 
 
 
